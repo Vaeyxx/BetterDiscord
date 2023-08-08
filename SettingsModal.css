@@ -16,36 +16,3 @@
 	transition-property: inherit !important;
 	animation: inherit !important;
 }
-#app-mount .layer-86YKbF.stop-animations:first-child::after {
-	content: "" !important;
-	position: fixed !important;
-	background: rgb(0, 0, 0) !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	opacity: 0.85 !important;
-	z-index: 999 !important;
-	pointer-events: none !important;
-}
-
-#app-mount .layer-86YKbF ~ .layer-86YKbF {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: var(--settingsmodalbackground) !important;
-	border-radius: 5px !important;
-	box-shadow: var(--elevation-high) !important;
-	width: var(--settingsmodalwidth) !important;
-	height: var(--settingsmodalheight) !important;
-	margin: auto !important;
-	padding: 0 !important;
-	overflow: hidden !important;
-	contain: unset !important;
-	z-index: 1000 !important;
-	--settingsiconsadditionalsize: var(--use-settingsicons, 0) * (var(--settingsicons-size, 0px) + var(--settingsicons-gap, 0px));
-}
