@@ -5,14 +5,3 @@
 	--settingsmodalwidth: 960px;
 	--settingsmodalheight: 80vh;
 }
-
-
-#app-mount .baseLayer-W6S8cY {
-	opacity: 1 !important;
-	transform: unset !important;
-	will-change: unset !important;
-}
-#app-mount .stop-animations * {
-	transition-property: inherit !important;
-	animation: inherit !important;
-}
